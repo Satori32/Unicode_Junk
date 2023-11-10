@@ -4,7 +4,7 @@
 #include <cstdint>
 
 /**/
-class UnicodeOne {
+class alignas(1) UnicodeOne {
 public:
 	int Parse(const char8_t X[]) {
 		C[0] = X[0];
